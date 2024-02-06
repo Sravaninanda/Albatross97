@@ -1,0 +1,21 @@
+<html lan = "en">
+    <%- include('./partials/head.ejs') %>
+    <body>
+
+        <%- include('./partials/nav.ejs') %>
+
+        <div class="create- registration content">
+            <form>
+                <label for="title">Doctor name:</label><br>
+                <input type="text"id="name"required><br>
+                <label for="specialist">Specialist:</label><br>
+                <input type="text"id="name"required><br>
+                <label for="body">Experience:</label><br>
+                <textarea id="body" required></textarea><br>
+                <button class="create-blog-button"> SUBMIT </button><br>
+            </form>
+        </div>
+        <%- include('./partials/footer.ejs') %>
+            
+    </body>
+</html>
